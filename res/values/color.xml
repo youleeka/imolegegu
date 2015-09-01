@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_lnzf">#708069</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red_local">#dd3a3b</color>
+    <color name="sidemenu_color_pressed">#40E0D0</color>
+    <color name="blue">#2b99f8</color>
+    <color name="deep_blue">#02254d</color>
+    <color name="solid_dark_gray">#555555</color>
+    <color name="gray_little_lnzf">#9e9e9e</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="sidemenu_item_height">40dp</dimen>
+    <dimen name="sidemenu_item_textsize">18sp</dimen>
+    <dimen name="header_textsize">22sp</dimen>
+    <integer name="num_cols">1</integer>
+
+     <!-- font size -->
+    <dimen name="font_largeest">20sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_mid">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+</resources>

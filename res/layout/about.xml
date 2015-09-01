@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:src="@drawable/icon" >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="蘑了个菇 1.0"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/font_mid" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/setting_list"
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_about_about_molegegu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/text_about_about_molegegu"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/font_mid" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="蘑了个菇科技  版权所有"
+            android:textColor="@color/gray_little_lnzf"
+            android:textSize="@dimen/font_mid" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Copyright @2013 Molegegu"
+            android:textColor="@color/gray_little_lnzf"
+            android:textSize="@dimen/font_mid" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="All Rights Reserved."
+            android:textColor="@color/gray_little_lnzf"
+            android:textSize="@dimen/font_mid" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
