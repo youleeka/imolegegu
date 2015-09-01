@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Non focused states -->
+	<item android:state_focused="false" android:state_selected="false"
+		android:state_pressed="false" android:drawable="@drawable/bg_list" />
+
+	<!-- Focused states -->
+	<item android:state_selected="true" android:drawable="@drawable/paper_newitem_pressed_bg_new" />
+
+	<!-- Pressed -->
+	<item android:state_pressed="true" android:drawable="@drawable/paper_newitem_pressed_bg_new" />
+</selector><!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/drawable/list_item_onlinenew_selector.xml -->

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#2b99f8</color>
+    <color name="deep_blue">#02254d</color>
+    <color name="gray_little_lnzf">#9e9e9e</color>
+    <color name="gray_lnzf">#708069</color>
+    <color name="red_local">#dd3a3b</color>
+    <color name="sidemenu_color_pressed">#40E0D0</color>
+    <color name="solid_dark_gray">#555555</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="PullToRefresh"><attr format="boolean" name="isRefreshEnable"/><attr format="boolean" name="isLoadEnable"/><attr format="reference|color" name="dividerBackground"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_largeest">20sp</dimen>
+    <dimen name="font_mid">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="header_textsize">22sp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="sidemenu_item_height">40dp</dimen>
+    <dimen name="sidemenu_item_textsize">18sp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="num_cols">1</integer>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="animations">Custom Animations</string>
+    <string name="app_name">蘑了个菇</string>
+    <string name="attach">Attach</string>
+    <string name="changing_fragments">Changing Fragments</string>
+    <string name="contact">Contact</string>
+    <string name="general">General</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="left">Left</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="licenses">Licenses</string>
+    <string name="menu_settings">Settings</string>
+    <string name="molegegu_about">蘑了个菇网，是一个分享原创趣事的网站。专注于分享每天最好玩、最轻松的趣
+闻乐事，以及充满正能量的励志故事。该网站于2013年10月25日正式上线。口号
+是“打造轻松一刻，导演快乐时光”，希望能给大家在忙碌的同时送上轻松一刻。</string>
+    <string name="properties">SlidingMenu Properties</string>
+    <string name="responsive_explanation">This is an example of a UI that responds well to device type. On phones, the menu will be placed inside a SlidingMenu, while on tablets the menu will be exposed alongside the content because we have enough room to always show it.</string>
+    <string name="responsive_ui">Responsive UI</string>
+    <string name="right">Right</string>
+    <string name="text_about_about">关于</string>
+    <string name="text_about_about_molegegu">官方网址  MOLEGEGU.COM</string>
+    <string name="text_about_feedback">意见与反馈</string>
+    <string name="text_about_net">官方网站</string>
+    <string name="text_about_update">检查新版本</string>
+    <string name="text_menu_about">蘑了个菇</string>
+    <string name="text_menu_fun">轻松一刻</string>
+    <string name="text_menu_haha">开心一刻</string>
+    <string name="text_menu_info1">欢迎访问蘑了个菇</string>
+    <string name="text_menu_info2">www.molegegu.com</string>
+    <string name="text_menu_info3">谢谢惠顾~</string>
+    <string name="text_menu_noupdate">已是最新版本</string>
+    <string name="text_menu_story">励志一刻</string>
+    <string name="text_menu_test">趣味测试</string>
+    <string name="text_menu_tu">美丽一刻</string>
+    <string name="text_menu_update">新版更新</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_bar">Title Bar Options</string>
+    <string name="title_bar_content">Sliding Content Only</string>
+    <string name="title_bar_slide">Sliding Title Bar</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="what_is_this">What is this?</string>
+    <!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:style/Theme.Light.NoTitleBar"/>
+    <style name="NoTitleBarTheme" parent="android:style/Theme.Light.NoTitleBar"/>
+</resources>

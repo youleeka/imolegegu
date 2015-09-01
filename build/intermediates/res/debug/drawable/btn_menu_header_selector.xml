@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true"
+		android:drawable="@drawable/btn_menu_press" />
+	<item android:drawable="@drawable/btn_menu_default" />
+</selector><!-- From: file:/Users/Eric/Documents/gitspace/Molegegu/res/drawable/btn_menu_header_selector.xml -->
