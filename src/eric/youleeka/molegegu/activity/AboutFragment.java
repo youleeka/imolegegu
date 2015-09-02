@@ -15,7 +15,7 @@ import eric.youleeka.molegegu.adapter.SettingListItemAdapter;
 
 public class AboutFragment extends Fragment implements OnClickListener{
 
-	private ImageButton menu;
+	private ImageButton menu;//menu button
 	private ListView listView = null;
 	private TextView text_about_about_molegegu = null;
 
